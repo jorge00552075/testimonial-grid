@@ -1,0 +1,43 @@
+.moderate-violet {
+  background-color: hsl(263, 55%, 52%) !important;
+}
+
+.bg-pattern-quotation {
+  background-image: url('./images/bg-pattern-quotation.svg');
+  background-position: top right 25%;
+  background-repeat: no-repeat;
+}
+
+.very-dark-grayish-blue {
+  background-color: hsl(217, 19%, 35%) !important;
+}
+
+.very-dark-blackish-blue {
+  background-color: hsl(219, 29%, 14%) !important;
+}
+
+.testimonials-grid-section {
+  background-color: hsl(210, 46%, 95%);
+}
+
+.white {
+  background-color: hsl(0, 0%, 100%) !important;
+  color: hsl(217, 19%, 35%) !important;
+}
+
+.col-1 {
+  grid-column: 1 / span 2;
+}
+.col-2 {
+  grid-column: 3 / span 1;
+}
+.col-3 {
+  grid-column: 1 / span 1;
+}
+.col-4 {
+  grid-column: 2 / span 2;
+}
+.col-5 {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 2;
+}
