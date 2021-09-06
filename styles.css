@@ -7,6 +7,8 @@
 }
 
 body {
+  background-color: hsl(210, 46%, 95%);
+  height: 100vh;
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-size: 13px;
 }
@@ -56,18 +58,19 @@ body {
 
 /* MAIN STYLES */
 .testimonials-grid-section {
-  background-color: hsl(210, 46%, 95%);
+  max-width: 1440px;
+  margin: 128px auto;
 }
 
 .grid-container {
-  max-width: 1440px;
+  max-width: 1080px;
   margin: 96px auto;
   padding: 12px;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 24px;
+  gap: 30px;
 }
 
 .testimonial {
@@ -121,6 +124,7 @@ body {
 
   .testimonial {
     padding: 24px 30px;
+    /* transform: translateY(200px); */
   }
 
   .col-1,
